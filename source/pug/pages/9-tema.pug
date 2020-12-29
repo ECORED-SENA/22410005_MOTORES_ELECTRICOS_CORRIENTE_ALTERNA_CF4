@@ -1,0 +1,100 @@
+.container#control
+
+    .header-ecored
+        h1 9. Control electrónico de frenado para PMM de superficie operativo normalizado - PON
+
+    img.img-fluid.img-a(src="assets/images/pages/img45.png")
+
+    #porque
+    .header-ecored
+        h2 9.1 Porque un control electrónico de frenado (#[i Backspin])
+
+    .jumbotron.bg-white
+        .row
+            .col-md-5.col-12.m-auto
+                p.text-c1 #[b Control Electrónico de Frenado]
+                img.img-fluid.img-a(src="assets/images/pages/img46.png")
+                p.text-center.mt-3 #[i #[b Fuente.] General Magnetic GM Canadá Ltd., 2018.]
+            .col.m-auto
+                .bg-t2
+                    p Un controlador de frenado electrónico está integrado por el gabinete y el panel de control de VFD , se encuentra cableado antes del envío. A continuación se plantea  una imagen representativa de la unidad de control del freno electrónico usado por General Magnetic International.
+
+                    .row.justify-content-center
+                        .col-auto.my-2
+                            a(href="media/documentos/Anexo_7.pdf#page=45" target="_blank").media-link
+                                img(src="assets/images/icons/icon_pdf.svg", alt="").media-link-icon
+                                .media-link-title
+                                    p Manual Del Usuario MTD - Pag (45)
+
+    #ventajas
+    .header-ecored
+        h2 9.2 Ventajas del control electrónico de frenado vs. el freno mecánico o hidráulico
+
+    img.img-fluid.img-ngt(src="assets/images/pages/img11.svg", style="max-width: 30%")
+    .bg-t3.bg-white
+        p Los motores convencionales para PCP han tenido un historial de seguridad accidentado. Esto se debe principalmente a la gran cantidad de piezas giratorias, como correas, poleas y engranajes. En años más recientes, los esfuerzos para mejorar los sistemas de frenos mecánicos han tratado de abordar estos problemas, pero solo han abordado una parte.  
+
+        p En los equipos mecánicos rotativos grandes, como los motores convencionales para PCP, todas las piezas móviles son fuentes de posibles accidentes. La única respuesta real a este problema de seguridad es eliminar o reducir drásticamente el número de piezas giratorias. Los cabezales PMM abordan el problema de la seguridad al eliminar las piezas móviles que podrían lesionarse por fallas o interacciones accidentales. La única parte giratoria externa de los cabezales PMM es una extensión de eje único. 
+
+        p La parte superior de los cabezales PMM tiene un protector de abrazadera de varilla que reduce cualquier interacción accidental, la cual está externa al motor. El VFD viene con un freno resistivo electrónico a prueba de fallas integrado que elimina el retroceso incontrolado, ofreciendo una forma superior y simple de manejar el #[i Backspin] sobre los sistemas mecánicos convencionales, como bombas de aceite de flujo inverso y frenos de disco.
+
+        p Cuando se instala en un pozo, el motor es concéntrico en la cabeza del pozo sin tensión mecánica resultante.  
+
+    #como
+    .header-ecored
+        h2 9.3 Cómo funciona un control electrónico de frenado y sus componentes
+
+    .jumbotron.bg-white
+        p Con el fin de evitar daños al VFD y detener el #[i Backspin] de manera segura y controlada, a diferencia de los sistemas convencionales que tienen un freno mecánico o hidráulico altamente peligroso cómo lo vimos anteriormente, los cabezales PMM lo hacen a través de un controlador electrónico de frenado que redirecciona la energía generada por el cabezal PMM, no al VFD, sino a un banco de resistencias de frenado especialmente diseñado con el fin de soportar dicha energía y disiparla cómo calor.
+
+        p.mb-4 Esa misma resistencia que se genera al quemar la energía hará que el pozo tenga un #[i Backspin] controlado y seguro a medida que la columna de fluido va pasando a través de las cavidades de la bomba hasta que finalmente los fluidos queden a nivel y el #[i Backspin] se detenga.
+        
+        .bg-t2
+            img.img-fluid.img-a(src="assets/images/pages/img47.png")
+
+            p De esta manera se logra principalmente:
+
+            ul.list-p1
+                li Hacer un control completo de #[i Backspin] controlado a prueba de fallas.
+                li Disipar la energía y convertirla en calor.
+                li Evitar frenos mecánicos e hidráulicos muy propensos a fallas.
+
+            p.mb-0 Para entender un poco más a fondo el diagrama de flujo de energías de un cabezal PMM.
+        
+        .quote.mt-4
+                .quote__bar   
+                    .quote__bar__icon
+                        img(src="assets/images/icons/quote_01.svg")
+                    .quote__bar__hr
+                .quote__text
+                    p.mb-3 El pozo PCP almacena energía incluso después de apagar la fuente de alimentación. Si el top drive #[i MagnoDrive] está girando, está presente una EMF inversa, en forma de voltaje de CA. Después de apagar la alimentación, espere al menos 20 minutos después de que el top drive haya dejado de girar por completo antes de intervenirlo. 
+
+                    p.mb-3 (General Magnetic GM, 2019) recomienda incorporar un “dispositivo de bloqueo de barra” en la instalación del cabezal de pozo. El bloqueo de la barra sirve para bloquear mecánicamente el rotor, evitando la rotación, durante los intervalos de servicio.
+                .quote__bar 
+                        .quote__bar__hr
+                        .quote__bar__icon
+                            img(src="assets/images/icons/quote_02.svg")
+        
+        .row.justify-content-center.mt-4
+            .col-auto.my-2
+                a(href="media/documentos/Anexo_11.pdf" target="_blank").media-link
+                    img(src="assets/images/icons/icon_pdf.svg", alt="").media-link-icon
+                    .media-link-title
+                        p Electronic Brake Energy Flow Diagram
+    
+    #dimensionamiento
+    .header-ecored
+        h2 9.4 Dimensionamiento correcto de las resistencias de frenado para cada aplicación
+   
+    img.img-fluid.img-ngt(src="assets/images/pages/img18.svg", style="max-width: 30%")
+    .bg-t3.bg-white
+        p Cada fabricante de cabezales tiene su propiedad intelectual respecto del control de freno y las resistencias de frenado. Para garantizar el correcto dimensionamiento de las resistencias y el sistema de frenado que es parte integral del cabezal PMM, es necesario consultar con cada fabricante, pues el dimensionamiento varía según fabricante y condiciones de fondo cómo son entre otras:
+        ul.list-p1
+            li Profundidad.
+            li Viscosidad del aceite.
+            li Corte de agua.
+            li Verticalidad del pozo.
+            li Condiciones de operación (velocidad y torque).
+            li Problemas de arenamiento.
+
+

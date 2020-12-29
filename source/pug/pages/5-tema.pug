@@ -1,0 +1,106 @@
+.container#esquemas
+
+    .header-ecored
+        h1 5. Esquemas y planos de conexionado de Motores de Imanes Permanentes PMM
+
+    .card
+        img.card-img-top(src="assets/images/pages/img38.png")
+        .card-body
+            p A continuación se presentan los esquemas de conexión y los procedimientos de instalación, conexión, desinstalación y desconexión de cabezales PMM.
+    
+    #conexion
+    .header-ecored
+        h2 5.1 Esquema de conexión de equipos para instalación de motores de superficie
+
+    .jumbotron.bg-white
+        p A continuación se muestran los esquemas generales de conexión de equipos para una instalación tipo de cabezales PMM.
+
+        p.text-center.text-c1 #[b Esquema general de interconexión eléctrica PMM]
+        img.img-fluid.img-a(src="assets/images/pages/img39.png")
+        p.text-center.mt-3 #[i #[b Fuente.] (General Magnetic GM Canadá Ltda., 2018).]
+
+        p La imagen superior muestra de manera resumida como es la conexión eléctrica entre el motor, el VFD, el filtro sinusoidal (este es opcional), y el freno electrónico. Algunos puntos a resaltar:
+
+        .bg-t2.mb-4
+            ul.list-p1
+                li (T1, T2, T3), (U, V, W) y (L1, L2, L3) representan los cables de cada una de las fases. La nomenclatura dependerá de la industria y el fabricante. Por ejemplo, si hablan de T1, T2, T3 se espera que estén hablando del motor. Si hablan de U, V, W o L1, L2, L3 se espera que estén hablando del VFD.
+                li Los relés (RELAY) y los conectores (CON) son simplemente las conexiones entre el freno electrónico y el VFD.
+                li GND, representa la conexión a tierra.
+                li Si ven con detalle la imagen, el VFD, el filtro y el freno estarían localizados en el gabinete de panel de control del VFD.
+        
+        p.text-center.text-c1 #[b Detalles de cable de alto nivel motor PMM GM]
+        img.img-fluid.img-a(src="assets/images/pages/img40.png")
+        p.text-center.mt-3 #[i #[b Fuente.] (General Magnetic GM Canadá Ltd., 2018).]
+
+        p En la imagen superior se muestra un resumen de las conexiones eléctricas entre el motor y el VFD, donde se resalta las características que deben tener los cables y los conectores de los cables:
+
+        .bg-t2.mb-4
+            ul.list-p1
+                li Los cables usados tanto para la conexión eléctrica, como para el termistor deben de tener una clasificación mínima de 90 ° C. Por ejemplo, en Canadá, el cable de teck está definido por la norma CSA C22.2 No. 131 y lleva la designación de tipo TECK90, el 90 se refiere a la temperatura ambiente normal en grados Celsius en la que el cable puede usarse sin disminuir su capacidad (ampacidad).
+                li Conectar el conector PTC (Positive Temperature Coefficient) del motor a los terminales PTC dentro del panel de control del VFD (si está equipado). Consulte los esquemas específicos del panel de control del VFD para conocer los detalles de la conexión PTC. Los termistores que tienen un coeficiente de temperatura positivo o PTC, incrementan su resistencia a medida que aumenta la temperatura del motor.
+                li Hay que asegurar que los conectores de glándula para entornos peligrosos usados tanto para los cables de energía como para los cables de los termistores están clasificados para:
+                ul.list-p2
+                    li EE. UU. / Canadá: conectores de glándula Ex e IIC IP54 con clasificación de 80 ° C o mejor.
+                    li IECEx / ATEX: conectores de glándula Ex e IIC IP54 con clasificación de 80 ° C o mejor.
+                li Vale resaltar que el área fuera del gabinete de panel de control del VFD se considera un área de entorno peligroso, o zona de alto riesgo.
+
+        .row.justify-content-center
+            .col-auto.my-2
+                a(href="media/documentos/Anexo_7.pdf#page=41" target="_blank").media-link
+                    img(src="assets/images/icons/icon_pdf.svg", alt="").media-link-icon
+                    .media-link-title
+                        p Manual Del Usuario MTD - Pag (41)
+        
+    #instalacion
+    .header-ecored
+        h2 5.2 Conexión, instalación, desconexión y desinstalación de motores PMM de superficie 
+
+    .jumbotron.bg-white
+        p La instalación de los cabezales PMM se divide en la instalación mecánica y posteriormente la instalación eléctrica. 
+
+        p Es supremamente importante tener especial cuidado con los mensajes de seguridad.
+
+        .bg-t4.mb-4
+            .sub-ecored.mt-4
+                h2 Los principales aspectos durante cualquier intervención a un cabezal PMM son:
+            
+            ul.list-p1
+                li Reunión de seguridad.
+                li Acatar las medidas generales de HSE frente a una intervención y adicionalmente las recomendadas por el fabricante del cabezal PMM.
+                li Tenga a la mano el manual de seguridad y el manual del usuario del equipo.
+                li Verifique y entienda el mensaje de seguridad.
+                li Utilice los EPP adecuados.
+            
+            p.text-center #[b Antes de cualquier intervención.]
+            img.img-fluid.img-a(src="assets/images/pages/img41.png")
+            p  Para el paso a paso de la instalación y desinstalación mecánica y eléctrica.
+        
+        .row.justify-content-center
+            .col-auto.my-2
+                a(href="media/documentos/Anexo_11.pdf" target="_blank").media-link
+                    img(src="assets/images/icons/icon_pdf.svg", alt="").media-link-icon
+                    .media-link-title
+                        p Electronic Brake Energy Flow Diagram
+            .col-auto.my-2
+                a(href="media/documentos/Anexo_10.pdf" target="_blank").media-link
+                    img(src="assets/images/icons/icon_pdf.svg", alt="").media-link-icon
+                    .media-link-title
+                        p Intervention Flow Chart SPANISH
+            .col-auto.my-2
+                a(href="media/documentos/Anexo_1.pdf#page=26" target="_blank").media-link
+                    img(src="assets/images/icons/icon_pdf.svg", alt="").media-link-icon
+                    .media-link-title
+                        p Presentación para Curso PMM - Pag (26)
+            .col-auto.my-2
+                a(href="media/documentos/Anexo_7.pdf#page=8" target="_blank").media-link
+                    img(src="assets/images/icons/icon_pdf.svg", alt="").media-link-icon
+                    .media-link-title
+                        p Manual Del Usuario MTD - Pag (8, 9, 10)
+
+
+        
+
+
+
+
+

@@ -1,0 +1,42 @@
+.container#variador
+
+    .header-ecored
+        h1 6. Variador de velocidad (VSD) - controles para motor PMM
+
+    .jumbotron.bg-white
+        p El componente operativo de un PMM que habilita el motor para funcionar a cualquier velocidad y torque dentro de su entorno operativo es un variador de frecuencia (VFD) (también conocido como variador de velocidad (VSD). Un VFD generalmente está programado para administrar todas las situaciones posibles, proporcionando el control de supervisión avanzado que determina cuándo detener y arrancar el motor, qué tan rápido debe ir bajo cargas variables y cómo operar de manera más eficiente dentro de los límites de torque. Para el caso de los cabezales PMM, es muy importante garantizar que el VFD tenga la capacidad de controlar los motores PMM, pero adicionalmente, que sea compatible y se haya probado su funcionalidad con el controlador electrónico de frenado cuyo resultado sea el de mayor éxito.
+    
+    #aspectos
+    .header-ecored
+        h2 6.1 Aspectos importantes a considerar al momento de escoger un VSD para PMM de superficie
+
+    .jumbotron.bg-white
+        .row.mb-3
+            .col-md-5.col-12.m-auto
+                img.img-fluid.img-a(src="assets/images/pages/img42.jpg")
+            .col.m-auto
+                p No todos los VFD se crean por igual y algunas aplicaciones son más exigentes que otras. Es de vital importancia encontrar la mejor marca y modelo para una aplicación específica.
+
+                p Se debe poder variar la velocidad del motor sin ningún problema, e incluso su sentido de rotación. Los motores de AC como los PMM no disminuyen la velocidad si ven un voltaje de entrada reducido, simplemente se sobrecalientan. La velocidad de un PMM está determinada por la frecuencia de la línea de AC, no por la amplitud del voltaje de entrada. Por lo tanto, reducir el voltaje de un PMM de AC que alimenta una carga no es un buen esquema de control.
+
+                p.mb-0 Durante mucho tiempo, no fue práctico operar motores de inducción de AC como los PMM a otra velocidad que no fuera constante. Finalmente surgió una estrategia exitosa para controlar la velocidad de este tipo de motores, los variadores de frecuencia o VFD. 
+
+                p En todo el mundo, los variadores de frecuencia (VFD) están en todas partes. Pueden variar la dirección, el torque y / o la velocidad del motor de AC cambiando la frecuencia o el ciclo de trabajo de la energía eléctrica que ve el PMM. El VFD típico para un PMM opera rectificando primero el voltaje de línea (a menudo 460 V trifásico).
+
+        p Es importante que el VFD seleccionado haya sido probado en conjunto con el Cabezal PMM, para garantizar que el mismo puede ejercer el control del PMM en todo su rango de operación y sobre todo la compatibilidad con el controlador electrónico y resistencias de frenado.
+
+        .row.justify-content-center
+            .col-auto.my-2
+                a(href="media/documentos/Anexo_7.pdf#page=16" target="_blank").media-link
+                    img(src="assets/images/icons/icon_pdf.svg", alt="").media-link-icon
+                    .media-link-title
+                        p Manual Del Usuario MTD - Pag (16, 21, 22)
+    
+    #compatibilidad
+    .header-ecored
+        h2 6.2 Compatibilidad y necesidad del controlador electrónico y las resistencias de frenado
+
+    .jumbotron.bg-white
+        p El controlador de freno electrónico garantiza que el top drive con PMM se detenga de manera segura cuando se pierde la alimentación de la red pública o cuando se requiere una parada de mantenimiento planificada del sistema PCP de PMM. El EMF posterior (voltaje de AC trifásico) del top drive con PMM se conecta a través del controlador de freno electrónico a una resistencia para detener de manera segura el sistema del top drive. 
+        p No es posible instalar un VFD sin haber probado la compatibilidad y el funcionamiento con el control electrónico de frenado de resistencias, pues de lo contrario, al presentar un efecto de Backspin en un pozo con cabezal PMM, la energía generada por el PMM va a quemar el VFD y el Backspin va a ser descontrolado. 
+

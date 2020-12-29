@@ -1,0 +1,37 @@
+.media-link {
+    
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap !important;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+    background-color: #9c684c;
+    background-image: linear-gradient(to right,#83553c,#A47156,#c07825);
+    background-size: 300%;
+    background-position: left;
+    border-radius: 7px;  
+    transition: background-position 0.35s ease-in-out;
+
+    &-icon {
+        flex: 0 0 40px;
+        height: 45px;
+        overflow: hidden;
+        margin-right: 1rem;       
+    }
+
+    &-title {
+        p {
+            color: $text-color-dark;
+            margin: 0 !important;
+        }      
+    }   
+    
+    &:hover {
+        background-position: right;
+    }
+
+}  
+
