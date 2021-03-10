@@ -9,7 +9,7 @@
     "id": 1,
     "icon": "fa fa-file-text-o",
     "slug": "tecnologia",
-    "title": "1. La tecnología; motores PMM en superficie",
+    "title": "1. La tecnología, motores PMM en superficie",
     "breadcrumb": ["Inicio","Tema 1"],
     "path": "pages/1-tema.html",    
     "submenu": [
@@ -133,7 +133,7 @@
     "id": 5,
     "icon": "fa fa-file-text-o",
     "slug": "esquemas",
-    "title": "5. Esquemas y planos de conexionado de motores de imanes permanentes",
+    "title": "5. Esquemas y planos de conexionado de Motores de Imanes Permanentes PMM",
     "breadcrumb": ["Inicio","Tema 5"],
     "path": "pages/5-tema.html",
     "submenu": [
@@ -176,7 +176,7 @@
   { 
     "id": 7,
     "icon": "fa fa-file-text-o",
-    "slug": "riegos",
+    "slug": "riesgos",
     "title": "7. Riesgos eléctricos y mecánicos de motores síncronos de imanes permanentes",
     "breadcrumb": ["Inicio","Tema 7"],
     "path": "pages/7-tema.html"
@@ -200,7 +200,7 @@
       {
         "icon": "fa fa-file-text-o",
         "slug": "control",
-        "title": "9.1 Porque un control electrónico de frenado Backspin",
+        "title": "9.1 Por qué un control electrónico de frenado Backspin",
         "anchor": "porque"
       },
       {
@@ -227,7 +227,7 @@
     "id": 10,
     "icon": "fa fa-file-text-o",
     "slug": "barreras",
-    "title": "10. Barreras físicas para la protección de generación eléctrica producida por un motor de magnetos permanentes barreras físicas para PMM de superficie.",
+    "title": "10. Barreras físicas para la protección de generación eléctrica producida por un motor de magnetos permanentes",
     "breadcrumb": ["Inicio","Tema 10"],
     "path": "pages/10-tema.html"
   }
